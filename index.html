@@ -1,1 +1,32 @@
-"Hello" 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/item-series.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/all.css">
+
+  </head>
+  <body>
+    <h1 style="text-align: center;">Descriptive Statistics</h1>
+    <div id="BoxPlot" style="max-width: 800px; height: 400px; margin-Top: 10px;margin-left: 24%;"></div>
+    <div id="BoxPlot2" style="max-width: 800px; height: 400px;margin-Top: 20px;margin-left: 24%;"></div>
+    <h1 style="text-align: center;margin-Top: 20px;">Time-series</h1>
+    <div id="time" style="margin-Top: 20px;"></div>
+    <div id="budget" style="margin-Top: 20px;height:700px;"></div>
+  </body>
+</html>
+<script src="./js/box1.js"></script>
+<script src="./js/box2.js"></script>
+<script src="./js/time_series.js"></script>
+<script src="./js/ministry_budget.js"></script>
